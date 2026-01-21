@@ -27,7 +27,7 @@ const HomeScreen = () => {
 
             const [apiCategories, randomMeals, featuredMeal] = await Promise.all([
                 MealAPI.getCategories(),
-                MealAPI.getRandomMeals(12),
+                MealAPI.getRandomMeals(22),
                 MealAPI.getRandomMeal(),
             ]);
 
@@ -211,3 +211,4 @@ const HomeScreen = () => {
     );
 };
 export default HomeScreen;
+
