@@ -12,6 +12,7 @@ if (!publishableKey) {
     );
 }
 
+
 export default function RootLayout() {
     return (
         <ClerkProvider tokenCache={tokenCache} publishableKey={publishableKey}>
